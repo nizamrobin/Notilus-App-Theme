@@ -1,0 +1,92 @@
+html {font-size: 41.67%; }
+
+body {
+  /border: 1px solid red;
+}
+
+.container {
+  /border: 1px solid green;
+}
+
+/* About Notilus */
+
+
+/*      Left Side Details       */
+.sidebar-feature-details {
+  height: 550px;
+}
+
+.sidebar-details {
+  /position: relative;
+  /top: 50%;
+  /transform: translateY(-50%);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.sidebar-details > h2 {
+  color: rgba(101, 46, 184, 0.8);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*      Right side feature      */
+
+/*Left Side para */
+.side-feature
+{
+  /position: relative;
+  /top: 50%;
+  /transform: translateY(-50%);
+}
+
+.side-feature {
+/*  /width: 20%;*/
+/*  Width is set by skeleton grid   */
+}
+
+.side-feature a {
+  color: #666;
+  text-decoration: none;
+  margin: 7% 0;
+  display: block;
+  position: relative;
+  padding: 10%;
+}
+
+.side-feature p {
+  border-bottom: 2px solid;
+  width: 75%;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  letter-spacing: 0.07em;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  transform: translateY(-80%);
+}
+
+/* Right Side Icon */
+.side-feature div {
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 10%;
+  padding: 10%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.side-feature i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/* Hover */
+.side-feature a:hover {
+  color: #1f7a7a;
+}

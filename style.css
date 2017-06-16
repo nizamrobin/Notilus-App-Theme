@@ -1,0 +1,1227 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  /font-size: 16px;
+}
+
+
+/* Navigation */
+/* Navigation Bar */
+nav {
+  background-color: rgba(240, 240, 240, 0.3);
+  width: 100%;
+  height: 60px;
+  /position: fixed;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 1px 1px 13px -3px #000;
+  top: 0;
+  z-index: 1;
+  display: block;
+}
+
+.nav {
+  height: inherit;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.nav > a {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  font-size: 140%;
+  font-weight: 600;
+}
+
+.nav > a >img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.nav > ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 85%;
+}
+
+.nav > ul > li > a {
+  /* 
+  display: inline-block; 
+    applying this will create another effect :)
+  */
+    padding: 19px 10px;
+}
+
+.nav > ul > li > a:hover {
+  /font-size: 200%; /* Comment out to creat an effect */
+  font-weight: 700;
+  font-size: 99%;
+  color: green;
+  border-bottom: 5px solid green;
+/*   display: inline-block; */
+}
+/* END Navigation */
+
+
+/***** Header *****/
+#header {
+  width: 100%;
+  height: 700px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Background Shape */
+#header div {
+  width: inherit;
+  height: inherit;
+  background-color: rgba(101, 46, 184, 0.8);
+  -webkit-clip-path: polygon(100% 0, 0 97%, 65% 68%);
+  clip-path: polygon(100% 0, 0 97%, 65% 68%);
+  /*position*/
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+/* Content */
+#header section {
+  width: 60%;
+  height: 80%;
+  margin: 5% auto;
+  position: relative;
+}
+
+#header article {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: inherit;
+  top: 15%;
+  width: 65%;
+  margin-right: 5%;
+}
+
+#header p {
+  margin: 3% 0 5%;
+}
+
+#header img {
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+/* Buttons */
+.button {
+  padding: 8px 15px ;
+  background-color: rgba(101, 46, 184, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 70%;
+  margin-right: 2%;
+}
+
+#header article > a:last-child {
+  background-color: #ebebeb;
+  color: #666;
+}
+
+.button:hover {
+  box-shadow: 5px 10px 20px 3px #c8c8c8;
+}
+/* END button */
+
+/* Text Formatting */
+
+#header h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 220%;
+  color: rgba(101, 46, 184, 0.8);
+}
+
+#header strong {
+  font-weight: 500;
+}
+
+#header p {
+  width: 60%;
+  font-size: 90%;
+  color: #666;
+  line-height: 1.5em;
+}
+  
+  /* END Text Formatting */
+  /* END Header */
+
+
+
+
+
+
+  
+  /* Sidebar Feature 1 */
+
+.sidebar-feature-details {
+  height: 600px;
+}
+
+.sidebar-details {
+  /width: 45%;
+  /left: 0;
+  /display: inline;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: baseline;
+}
+  
+.sidebar-details > h2 {
+  color: rgba(101, 46, 184, 0.8);
+}
+  /*Left Side para */
+.side-feature {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.side-feature a {
+  color: #666;
+  text-decoration: none;
+  margin: 5% 0;
+  /display: block;
+}
+
+.side-feature p {
+  display: inline-block;
+  border-bottom: 2px solid;
+  width: 60%;
+  margin-right: 2%;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 90%;
+  letter-spacing: 0.07em;
+}
+
+/* Right Side Icon */
+.side-feature div {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  display: inline-block;
+  vertical-align: sub;
+  margin: 0;
+}
+
+.side-feature i {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Hover */
+.side-feature a:hover {
+  color: #1f7a7a;
+}
+  
+/* END Sidebar-feature-details */
+
+
+
+
+/* Counter */
+
+#counter {
+  width: 100%;
+  text-align: center;
+  color: rgba(101, 46, 184, 0.7);
+  background-color: rgba(240, 240, 240, 0.5);
+  font-family: 'Poppins', sans-serif;
+  height: 250px;
+}
+
+#counter .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#counter p:nth-of-type(1) {
+  margin: 20% 0 3%;
+}
+
+#counter article {
+  display: inline-block;
+  margin: 0 3%;
+}
+
+/* END Counter */
+
+
+/* Awesome Feature */
+
+/* Text Formatting */
+#feature-box .container h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 95%;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+#feature-box .container p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 90%;
+}
+
+/* Positioning */
+
+
+#feature-box {
+  width: 100%;
+  text-align: center;
+  margin: 10% 0;
+}
+
+#feature-box > h2 {
+  color: rgba(101, 46, 184, 0.7);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#feature-box > p {
+  width: 40%;
+  margin: 0 auto 3%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5em;
+  font-size: 90%;
+}
+
+#feature-box > section {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#feature-box .side-img {
+  width: 20%;
+  margin-left: 5%;
+}
+
+#feature-box article {
+  width: 100%;
+  padding: 3% 2.5%;
+  margin: 5% 0;
+  text-align: left;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  line-height: 1.5em;
+  
+}
+
+#feature-box article:hover {
+  box-shadow: 3px 3px 20px 1px #c8c8c8;
+}
+
+#feature-box div {
+  text-align: center;
+  display: inline-block;
+  color: #1f7a7a;
+  vertical-align: middle;
+  margin-right: 4%;
+  width: 22%;
+  font-size: 80%;
+}
+
+#feature-box .container p {
+  display: inline-block;
+  width: 72%;
+  vertical-align: middle;
+}
+
+#feature-box section:nth-of-type(2) img {
+  /box-shadow: 0 5px 20px #c8c8c8;
+}
+
+/* END Awesome Feature */
+
+/* Screenshots */
+
+.slider > h2 {
+  color: rgba(101, 46, 184, 0.7);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.slider > p {
+  width: 35%;
+  margin: 0 auto 3%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5em;
+  font-size: 90%;
+}
+
+/* Slider main */
+.slider {
+  width: 100%;
+  text-align: center;
+  margin: 2% 0;
+  background-color: rgba(240, 240, 240, 0.3);
+  padding: 5% 0;
+}
+
+ .slider section {
+   display: inline-block;
+   width: 20%;
+}
+
+.slider img {
+  width: 100%;
+  box-shadow: 5px 5px 40px 2px #c8c8c8;
+}
+
+.section-1 img, .section-3 img {
+  width: 70%;
+  vertical-align: middle;
+}
+
+.slider .section-2 img {
+  vertical-align: middle;
+}
+/* END slider main */
+
+/* Nav left and right icon style */
+.nav-icon {
+  background-color: rgba(240, 240, 240, 0.3);
+  box-shadow: 2px 2px 20px #c8c8c8;
+  color: #1f7a7a;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 2%; 
+  display: inline-block;
+}
+
+.nav-icon i {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*END Nav icon style*/
+
+/* END Screenshots */
+
+
+
+
+/* Video Content */
+
+#video {
+  width: 60%;
+  margin: 10% auto;
+}
+
+#video video {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7.5%;
+}
+
+#video article {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Description */
+#video article h2 {
+  color: rgba(101, 46, 184, 1);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-size: 125%;
+}
+
+#video article p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 85%;
+} 
+
+/* List Items styles */
+#video ul {
+  list-style-type: none;
+  width: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#video ul li {
+  margin: 5% 0;
+}
+
+#video ul li p {
+  display: inline-block;
+  width: 90%;
+  font-size: 80%;
+  vertical-align: top;
+  margin: 0;
+}
+
+#video ul li i {
+  color: #1f7a7a;
+  width: 8%;
+  margin-right: 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* END List Items Style */
+/* END Video Description */
+
+/* END Video Content */
+
+
+
+
+/* User Sidebar Feature */
+
+#user-sidebar > h2 {
+  text-align: center;
+  color: rgba(101, 46, 184, 0.7);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#user-sidebar > p {
+  width: 40%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #666;
+}
+
+.sidebar-details-user {
+  text-align: center;
+}
+
+.sidebar-details-user > i {
+  color: #1f7a7a;
+  margin: 0 0.2em;
+  font-size: 85%;
+}
+
+.sidebar-details-user > h2 {
+  color: #1f7a7a;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 85%;
+}
+
+.sidebar-details-user > p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  line-height: 1.7em;
+  color: #666;
+  font-style: italic;
+}
+
+.sidebar-details-user footer > p:first-child {
+  color: #000;
+  font-style: italic;
+}
+
+
+/* END User Sidebar Feature */
+
+/* Pricing */
+
+/* Headings */
+#pricing h2 {
+  text-align: center;
+  color: rgba(101, 46, 184, 1);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-size: 125%;
+}
+
+#pricing > p {
+  width: 40%;
+  margin: 1% auto 5%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  color: #666;
+}
+
+/* Pricing Charts */
+#pricing section {
+  width: 100%;
+}
+
+#pricing article {
+  width: 15%;
+  background-color: #f8f8f8;
+}
+
+#pricing section article > a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* List Header style */
+#pricing header {
+  background-color: #1f7a7a;
+  color: #fff;
+  text-align: center;
+  padding: 8% 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#pricing a > p {
+  color: #1f7a7a;
+  margin: 20% 0 10%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 85%;
+  text-transform: capitalize;
+  
+}
+
+/* Item 2 */
+#pricing article:nth-of-type(2)  header {
+  background-color: rgba(101, 46, 184, 0.8);
+}
+
+#pricing article:nth-of-type(2) a > p,
+#pricing article:nth-of-type(2) i {
+  color: rgba(101, 46, 184, 0.8);
+}
+
+/* Item 3 */
+#pricing article:nth-of-type(3)  header {
+  background-color: #1ce;
+}
+
+#pricing article:nth-of-type(3) a > p,
+#pricing article:nth-of-type(3) i {
+  color: #1ce;
+}
+
+/* Text Formatting */
+#pricing header h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+#pricing header p {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+#pricing p small {
+  margin-right: 1%;
+}
+
+#pricing p strong {
+  font-size: 150%;
+}
+
+/* Adding horizontal line after Package plan type  and also for items*/
+#pricing h3:after,
+#pricing ul li:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 15%;
+  margin: 4% auto;
+}
+
+
+/* List Items styles */
+#pricing ul {
+  list-style-type: none;
+  width: 80%;
+  margin: 10% auto;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  letter-spacing: 0.03em;
+  text-align: left; /* To overwrite center align of pricing section */
+}
+
+#pricing i {
+  color: #1f7a7a;
+  margin-right: 10%;
+  /font-size: 100%;
+}
+
+#pricing ul li:after {
+  border-bottom: 1px solid #1f7a7a;
+  width: 100%;
+  margin: 6% 0;
+}
+
+#pricing article:nth-of-type(2) li:after {
+  border-bottom: 1px solid rgba(101, 46, 184, 0.8);
+}
+
+#pricing article:nth-of-type(3) li:after {
+  border-bottom: 1px solid #1ce;
+}
+
+#pricing ul li:last-child:after {
+  border-bottom: none;
+}
+
+
+/* Position */
+
+#pricing article {
+  display: inline-block;
+  margin: 0 3%;
+  vertical-align: top;
+}
+
+#pricing section {
+  text-align: center;
+}
+/* END Positioning */
+
+/* Hover */
+#pricing article:hover {
+  box-shadow: 3px 3px 20px 1px #c8c8c8;
+}
+
+/* END Pricing */
+
+
+
+
+/* Team */
+
+/* Slider Header */
+#team header {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 40%;
+  margin: 3% auto;
+  color: #666;
+}
+
+#team header h2 {
+   color: #5c00e6;
+   text-transform: uppercase;
+  font-weight: 500;
+  font-size: 120%;
+   margin-bottom: 2%;
+}
+
+#team header p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  margin: 2% 0 3%;
+}
+/* END slider header */
+
+/* Slider main */
+.team-slider {
+  width: 100%;
+  text-align: center;
+  height: 600px;
+}
+
+.team-slider section {
+   display: inline-block;
+   width: 20%;
+   vertical-align: top;
+   height: inherit;
+}
+
+.team-slider img {
+  height: 70%;
+  overflow: hidden;
+  box-shadow: 5px 5px 40px 2px #c8c8c8;
+}
+
+.slider-image-container {
+  height: 55%;
+}
+
+.team-slider .section-1 img, 
+.team-slider .section-3 img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.team-slider .section-2 img {
+  height: 100%;
+}
+
+/* Slider Footer */
+.team-slider footer {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  height: 40%;
+  width: auto;
+  padding: 2% 3%;
+  margin-top: 10%;
+}
+
+.team-slider footer a {
+  text-decoration: none;
+  color: #666;
+}
+
+
+ .team-slider h3 a {
+   font-size: 75%;
+   font-weight: 500;
+   color: #1f7a7a;
+   text-transform: uppercase;
+}
+
+.team-slider footer h4 {
+  font-size: 80%;
+  font-weight: 500;
+  font-style: italic;
+  margin: 3% 0;
+}
+
+.team-slider footer p {
+  font-size: 75%;
+  line-height: 1.8em;
+  margin: 10% 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.team-slider footer div a {
+  padding: 3%;
+}
+.team-slider footer div a i:hover {
+  color: #1f7a7a;
+}
+.section-1 footer, .section-3 footer {
+  visibility: hidden;
+}
+/* END slider main */
+
+/* Nav left and right icon style */
+.nav-icon {
+  background-color: rgba(240, 240, 240, 0.3);
+  box-shadow: 2px 2px 20px #c8c8c8;
+  color: #1f7a7a;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 2%; 
+  display: inline-block;
+}
+
+.nav-icon i {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* nav icon positioning */
+.nav-icon-position {
+  height: 55%;     /* Match height of the .slider-image-container */
+  display: inline-block;
+}
+
+.nav-icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*END Nav icon style*/
+/* END Team */
+
+/* Downloads */
+
+/* Download Button */
+/* Basic */
+#download {
+  width: 70%;
+  margin: 3% auto;
+  position: relative;
+}
+
+#download a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1f7a7a;
+  padding: 0 10px;
+  display: block;
+  width: 150px;
+  border-radius: 3px;
+  /*for Position*/
+  margin: 25% 0;
+}
+
+#download i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10%;
+  margin-right: 10%;
+}
+
+#download a p {
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+#download em {
+  display: block;
+  font-style: normal;
+  font-size: 120%;
+  font-weight: initial;
+}
+
+#download a:hover {
+  box-shadow: 5px 10px 20px 3px #c8c8c8;
+}
+/* END Basic Download Buttons */
+
+/* Second & Third Button */
+#download a:nth-of-type(2) {
+  background-color: rgba(101, 46, 184, 0.8);
+}
+
+#download a:nth-of-type(3) {
+  background-color: #1ce;
+}
+/* END Download Buttons */
+
+/* Description */
+#download section:nth-of-type(2) {
+  width: 30%;
+  /* Position */
+  margin-left: 15%;
+}
+
+
+#download h2 {
+  color: rgba(101, 46, 184, 0.8);
+  font-family: poppins, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 120%;
+  letter-spacing: 0.05em;
+  line-height: 2.5em;
+}
+
+#download section:last-child p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 80%;
+  line-height: 1.7em;
+}
+
+/* Positioning */
+#download section {
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+#download > div {
+  -webkit-clip-path: polygon(56% 0, 95% 0, 41% 95%, 9% 76%);
+clip-path: polygon(56% 0, 95% 0, 41% 95%, 9% 76%);
+  position: absolute;
+  background-color: gray;
+  width: 300px;
+  height: 500px;
+  bottom: -65%;
+  right: 1%;
+}
+
+/* END Downloads */
+
+
+/* Forms */
+#form {
+  margin: 7% 0;
+  padding: 7% 0;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+#form form:first-child {
+  margin-right: 1%;
+}
+
+#form form:last-child {
+  margin-left: 1%;
+}
+
+#form form {
+  width: 30%;
+  background-color: #fff;
+  padding: 2%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#form > h2 {
+  color: rgba(101, 46, 184, 0.8);
+  font-family: 'Poppins', sans-serif;
+  font-size: 150%;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#form > p {
+  width: 40%;
+  margin: 1% auto 5%;
+  color: #666;
+  line-height: 1.5em;
+}
+
+#form form h2 {
+  text-align: center;
+  color: #1f7a7a;
+  margin-bottom: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Small Form */
+
+#form form:first-child > div {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+#form form:first-child input {
+  border: transparent;
+  background-color: transparent;
+  width: 30%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#form form:first-child input[type="email"] {
+  border-bottom: 1px solid #666;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  text-transform: capitalize;
+  line-height: 2em;
+  outline: none
+}
+
+#form form:first-child .button {
+  width: 40%;
+  padding: 7px 15%;
+  background-color: rgba(101, 46, 184, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80%;
+  line-height: 2em;
+  /*position*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#form form:first-child .button:hover {
+  box-shadow: 5px 10px 20px 3px #c8c8c8;
+}
+
+/* Big Form */
+
+
+#form form:last-child > div {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#form form:last-child > div input {
+  display: inline-block;
+  width: 47.25%;
+  margin: 5% 1%;
+  border: transparent;
+  background-color: transparent;
+  border-bottom: 1px solid #666;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2em;
+  text-transform: capitalize;
+  outline: none;
+}
+
+#form form:last-child textarea {
+  width: 97.5%;
+  margin: 5% 1%;
+  border: transparent;
+  background-color: transparent;
+  border-bottom: 1px solid #666;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 2em;
+  resize: none;
+  text-transform: capitalize;
+  outline: none
+}
+
+#form form:last-child input[type="submit"] {
+  width: initial;
+  margin: 1% 1%;
+}
+
+#form form:last-child .button {
+  /width: 40%;
+  padding: 7px 15%;
+  background-color: rgba(101, 46, 184, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80%;
+}
+
+#form form:last-child .button:hover {
+  box-shadow: 5px 10px 20px 3px #c8c8c8;
+}
+
+/* END Forms */
+
+
+/* Footer */
+footer {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  padding: 5% 0;
+}
+
+footer > div {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+footer > div > section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer > div > section:first-child {
+  text-align: center;
+  
+}
+
+footer > div > section:last-child {
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+footer > div:nth-of-type(2) {
+  text-align: center;
+}
+
+footer > div:nth-of-type(2) > i {
+  margin: 10% 0 2%;
+}
+
+footer p strong {
+  display: block;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+footer address {
+  margin: 8% 0;
+}
+
+footer i {
+  color: #666;
+}
+
+footer section > div > a i {
+   margin: 8% 7%;
+}
+
+/* up nav logo */
+footer > a  {
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  border: 1px solid gray;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+footer > a > i {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: top;
+}
+/* END Up Nav logo */
+
+/* Fonts */
+footer h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #1f7a7a;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 500;
+}
+
+footer p {
+  font-style: normal;
+  font-size: 70%;
+  color:#666;
+}
