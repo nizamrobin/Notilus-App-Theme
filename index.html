@@ -4,17 +4,16 @@
     <title>Notilus</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="normalize.css" rel="stylesheet">
+<!--    <link href="normalize.css" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-<!--
-    <link href="style.css" rel="stylesheet">
-    <link href="responsive.css" rel="stylesheet">
--->
-    <link href="normalize.css" rel="stylesheet">
-    <link href="skeleton.css" rel="stylesheet">
+<!--    <link href="style.css" rel="stylesheet">-->
+<!--    <link href="normalize.css" rel="stylesheet">-->
+<!--    <link href="skeleton.css" rel="stylesheet">-->
+    <link href="bootstrap.css" rel="stylesheet">
     <link href="style-s.css" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet">
 <!--    <link href="style.css" rel="stylesheet">-->
   </head>
   
@@ -23,215 +22,215 @@
   <body>
     
 <!--  Navigation  -->
-<!--
-  <div class="container">
-    
-    <nav class="row">
-      <div class="nav twelve columns">
-        <a class="three columns" href="#"><img src="http://via.placeholder.com/30x30" alt="#">Notilus</a>
-        <ul class="five columns offset-by-four">
-          <li class="three columns"><a href="#">About</a></li>
-          <li class="three columns"><a href="#">Features</a></li>
-          <li class="three columns"><a href="#">Pricing</a></li>
-          <li class="three columns"><a href="#">Contact</a></li>
+  <div class="container-fluid full-width" id="nav">
+    <nav class="container" id="nav-padding">
+      <div class="nav col-xs-12">
+        <a href="#"><img src="images/logo.png" alt="#"></a>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
--->
+  </div>
+    
+    
+    
+    
+    
+<!--       Header -->
+      <header id="header" class="container-fluid">
+        <img class="row col-xs-10 img-responsive" src="images/hero-bg.png" alt="#">
+        <div class="container">
+          <section class="row">
+            <article class="col-xs-6">
+              <h1>One app to rule them all</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum.</p>
+              <a class="button" href="#">Download</a>
+              <a class="button" href="#">Learn More</a>
+            </article>
 
-      <!-- Header -->
-<!--
-      <header id="header">
-        <div></div>
-
-        <section>
-          <article>
-            <h1>One <strong>app</strong> to <strong>rule</strong> them all</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum.</p>
-            <a class="button" href="#">Download</a>
-            <a class="button" href="#">Learn More</a>
-          </article>
-
-          <img src="http://via.placeholder.com/300x600" alt="#">
-        </section>
-      </header>
--->
-      <!-- END Header -->
-
-      <!-- Sidebar Feature 1 -->
-    <div class="container">
-      <article class="row sidebar-feature-details">
-
-        <section class="one-half column sidebar-details">
-          <h2>About Notilus</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique</p>
-        </section>
-
-        <section class="five columns u-pull-right side-feature">
-          <a href="#">
-            <p>Get the best</p> 
-            <div>
-              <i class="fa fa-tint fa-3x" aria-hidden="true"></i>
-            </div>
-          </a>
-
-          <a href="#">
-            <p>Feature 2</p> 
-            <div>
-              <i class="fa fa-globe fa-3x" aria-hidden="true"></i>         
-            </div>
-          </a>
-
-          <a href="#">
-            <p>Feature 3</p> 
-            <div>
-              <i class="fa fa-snowflake-o fa-3x" aria-hidden="true"></i>    
-            </div>
-          </a>
-
-          <a href="#">
-            <p>Feature 4</p> 
-            <div>
-              <i class="fa Example of grav fa-grav fa-3x" aria-hidden="true"></i>   
-            </div>
-          </a>
-        </section>
-        
-      </article>
-      
-    </div>
-
-      <!-- END Sidebar feature -->
-
-      <!-- Counter -->
-<!--
-      <section id="counter">
-        <div class="container">  
-          <article>
-            <i class="fa fa-download fa-3x" aria-hidden="true"></i>
-            <p>1 Million+</p>
-            <p>Downloads</p>
-          </article>
-
-          <article>
-            <i class="fa fa-user fa-3x" aria-hidden="true"></i>
-            <p>200,000+</p>
-            <p>Verified Users</p>
-          </article>
-
-          <article>
-            <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
-            <p>30+</p>
-            <p>Awards Won</p>
-          </article>
-
-          <article>
-            <i class="fa fa-smile-o fa-3x" aria-hidden="true"></i>
-            <p>50,000+</p>
-            <p>Lovely Words</p>
-          </article>
+            <img class="col-xs-6" src="images/hero-iphone.png" alt="#">
+          </section>
         </div>
-      </section>
--->
+      </header>
+      <!-- END Header 
 
+    
+    
+    
+    
+<!-- About Notilus -->
+    
+      <div class="container sidebar-feature" id="notilus">
+          <h2 class="col-xs-12">About Notilus</h2>
+          <p class="col-xs-12 col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mas consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique</p>
+          
+        <article class="row">
+          <section class="col-xs-8 col-xs-push-2 col-sm-6 col-sm-push-0 sidebar-details">
+            <h2>Get the best</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesu.</p> 
+          </section>
+
+          <section class="col-xs-10 col-xs-push-1 col-sm-5 side-feature">
+            <a href="#">
+              <p>Get the best</p> 
+              <div>
+                <img src="images/01-get-best-icon.png" alt="Get the best">
+              </div>
+            </a>
+
+            <a href="#">
+              <p>Feature 2</p> 
+              <div>
+                <img src="images/02-anywhere-icon.png" alt="Get Anywhere">  
+              </div>
+            </a>
+
+            <a href="#">
+              <p>Feature 3</p> 
+              <div>
+               <img src="images/03-hastling-icon.png" alt="No Hasling">   
+              </div>
+            </a>
+
+            <a href="#">
+              <p>Feature 4</p> 
+              <div>
+                <img src="images/04-unique-icon.png" alt="Unique"> 
+              </div>
+            </a>
+          </section>
+
+        </article>
+      </div>
+<!-- END About Notilus -->
+
+    
+    
+    
+    
+<!-- Counter -->
+    
+    <div class="container-fluid full-width right-margin">
+      <div class="container">
+        <section class="row" id="counter">
+            <article class="col-sm-3">
+              <img class="img-responsive" src="images/05-download-icon.png" alt="Downloads Number">
+              <footer>
+                <p>1 Million+</p>
+                <p>Downloads</p>
+              </footer>
+            </article>
+
+            <article class="col-sm-3">
+              <img class="img-responsive" src="images/06-map-icon.png" alt="Verified Users">
+              <footer>
+                <p>200,000+</p>
+                <p>Verified Users</p>
+              </footer>
+            </article>
+
+            <article class="col-sm-3">
+              <img class="img-responsive" src="images/07-medal-icon.png" alt="Awards Won">
+              <footer>
+                <p>30+</p>
+                <p>Awards Won</p>
+              </footer>
+            </article>
+
+            <article class="col-sm-3">
+              <img class="img-responsive" src="images/08-smiley-icon.png" alt="Users Lovely Words">
+              <footer>
+                <p>50,000+</p>
+                <p>Lovely Words</p>
+              </footer>
+            </article>
+        </section>
+      </div>
+    </div>
   <!--  END Counter  -->
 
+    
+    
+    
+    
+    
   <!--  Awesome Feature  -->
+    <div class="container">
+      <section id="feature-box" class="row">
+        <h2 class="col-xs-12">Awesome Features</h2>
+        <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
-<!--
-      <section id="feature-box">
-        <h2>Awesome Features</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <section class="wrapper col-sm-7 col-xs-12">
 
-        <section class="container">
-
-          <article>
-            <div>
-              <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
+          <article class="row">
+            <div class="col-xs-12">
+              <img src="images/09-files-icon.png" alt="Customizable">
               <h3>Fully Customizable</h3>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+            <p class="col-xs-12">Lorem ipsum dolor sit amet</p>
           </article>
 
-          <article>
-            <div>
-              <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+          <article class="row">
+            <div class="col-xs-12">
+              <img src="images/10-code-icon.png" alt="Code">
               <h3>Clean Code</h3>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
           </article>
 
-          <article>
-            <div>
-              <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+          <article class="row">
+            <div class="col-xs-12">
+              <img src="images/11-heart-icon.png" alt="Love Design">
               <h3>Designed to Love</h3>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
           </article>
-          <article>
-            <div>
-              <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+          
+          <article class="row">
+            <div class="col-xs-12">
+              <img src="images/12-lock-icon.png" alt="Secured">
               <h3>Best Secured</h3>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+            <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
           </article>
 
         </section>
 
-        <section class="side-img">
-          <img src="http://via.placeholder.com/200x400" alt="#">
+        <section class="col-sm-4 col-sm-push-1">
+          <img class="img-responsive" src="images/features-iphone.png" alt="#">
         </section>
 
       </section>
--->
+    </div>
 
   <!--  END Awesome Feature  -->
 
-  <!--  Screenshots  -->
-
-<!--
-      <article class="slider">
-
-        <h2>Some Screenshots</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
-
-        <a class="nav-icon" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <section class="section-1">
-          <a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a>
-        </section>
-
-        <section class="section-2">
-          <a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a>
-        </section>
-
-        <section class="section-3">
-          <a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a>
-        </section>
-
-        <a class="nav-icon" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-    </article>
--->
-
-  <!--  END Screenshots  -->
-
+  
+    
+    
   <!--  Video Content  -->
+    <div class="container-fluid full-width">
+      <section class="container" id="video">
+        <div class="row col-sm-6">
+          <video controls class="col-xs-12">
+            <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
 
-<!--
-      <section id="video">
-        <video controls>
-          <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
+        <article class="row col-sm-5 col-sm-push-1">
+          <h2 class="col-xs-12">Wondering, how it works!</h2>
+          <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem quam, aliquet a luctus in, hendrerit id urna. Integer in molestie lectus. Donec nec egestas elit. Quisque mauris leo, eleifend ut augue vitae, tincidunt euismod urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
-        <article>
-          <h2>Wondering, how it works!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem quam, aliquet a luctus in, hendrerit id urna. Integer in molestie lectus. Donec nec egestas elit. Quisque mauris leo, eleifend ut augue vitae, tincidunt euismod urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-
-          <ul>
+          <ul class="col-xs-10">
            <li><i class="fa fa-check" aria-hidden="true"></i><p>Feature 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem quam, aliquet a luctus in, hendrerit id urna.</p></li>
            <li><i class="fa fa-check" aria-hidden="true"></i><p>Feature 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem quam, aliquet a luctus in, hendrerit id urna.</p></li>
            <li><i class="fa fa-check" aria-hidden="true"></i><p>Feature 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem quam, aliquet a luctus in, hendrerit id urna.</p></li>
@@ -239,81 +238,116 @@
          </ul>
         </article>
       </section>
--->
+    </div>
 
   <!--  END Video Content  -->
 
-  <!--  Sidebar Feature User -->
-<!--
-      <section id="user-sidebar">
-        <h2>Lovely words from users</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesu.</p>
+    
+    
+    
+    <!--  Screenshots  -->
+    
+      <article class="container slider">
 
-        <article class="sidebar-feature-details" id="sidebar-feature-user">
+        <h2 class="col-xs-12">Some Screenshots</h2>
+        <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+        
+        <div class="row">
+          <a class="col-xs-3 col-sm-1 nav-icon" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 
-          <section class="sidebar-details sidebar-details-user">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-
-            <h2>Amazing app! I love it</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean odio libero, sagittis in lectus in, pulvinar fermentum metus.</p>
-            <footer>
-              <p>Anthony Hopkins</p>
-              <p>CEO, Hop Film Production</p>
-            </footer>
+          <section class="col-sm-3 section-1">
+            <a href="#"><img class="img-responsive" src="images/app-screen-left.jpg" alt="#"></a>
           </section>
 
-          <section class="side-feature">
-            <a href="#">
-              <p>Get the best</p> 
-              <div>
-                <i class="fa fa-tint fa-3x" aria-hidden="true"></i>
-              </div>
-            </a>
-
-            <a href="#">
-              <p>Feature 2</p> 
-              <div>
-                <i class="fa fa-globe fa-3x" aria-hidden="true"></i>        
-              </div>
-            </a>
-
-            <a href="#">
-              <p>Feature 3</p> 
-              <div>
-                <i class="fa fa-snowflake-o fa-3x" aria-hidden="true"></i>         
-              </div>
-            </a>
-
-            <a href="#">
-              <p>Feature 4</p> 
-              <div>
-                <i class="fa Example of grav fa-grav fa-3x" aria-hidden="true"></i>         
-              </div>
-            </a>
-
+          <section class="col-sm-4 col-xs-6 section-2">
+            <a href="#"><img class="img-responsive" src="images/app-screen-center.jpg" alt="#"></a>
           </section>
 
-        </article>
+          <section class="col-sm-3 section-3">
+            <a href="#"><img class="img-responsive" src="images/app-screen-right.jpg" alt="#"></a>
+          </section>
 
+          <a class="col-sm-1 col-xs-3 nav-icon" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+      </article>
+
+  <!--  END Screenshots  
+
+    
+    
+    
+    
+    
+    <!--  Team  -->
+      <section class="container-fluid full-width" id="team">
+        <header>
+          <h2 class="col-xs-12">Meet our team players</h2>
+          <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elita</p>
+        </header>
+        <div class="container">
+          <article class="team-slider row">
+            <div class="col-xs-3 col-sm-1 nav-icon-position"><a class="nav-icon" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
+            <section class="col-sm- section-1">
+              <div class="slider-image-container"><a href="#"><img class="img-responsive" src="images/team-left.jpg" alt="#"></a></div>
+              <footer>
+                <h3><a href="#">Author Name 1</a></h3>
+                <h4>Designation 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div>
+                  <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+              </footer>
+            </section>
+
+            <section class="col-sm- col-xs-6 section-2">
+              <div class="slider-image-container"><a href="#"><img class="img-responsive" src="images/team-center.jpg" alt="#"></a></div>
+              <footer>
+                <h3><a href="#">Author Name 2</a></h3>
+                <h4>C Designation 2</h4>
+                <p>Q Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div>
+                  <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+              </footer>
+            </section>
+
+            <section class="col-sm- section-3">
+              <div  class="slider-image-container"><a href="#"><img class="img-responsive" src="images/team-right.jpg" alt="#"></a></div>
+              <footer>
+                <h3><a href="#">Author Name 3</a></h3>
+                <h4>Designation 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div>
+                  <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+              </footer>
+            </section>
+            <div class="col-sm-1 col-xs-3 nav-icon-position"><a class="nav-icon" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+          </article>
+        </div>
       </section>
--->
+  <!--  END Team  -->
 
+    
+    
+    
+    <!--  Pricing  -->
+    <section class="container" id="pricing">
 
-  <!--  END User Sidebar Feature  -->
+      <h2 class="col-xs-12">Headings</h2>
+      <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
 
-  <!--  Pricing  -->
-<!--
-    <section id="pricing">
-
-      <h2>Headings</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
-
-      <section>
-        <article>
+      <section class="row">
+        <article class="col-xs-4">
           <a href="#">
             <header>
               <h3>Type 1</h3>
@@ -333,7 +367,7 @@
         </article>
 
 
-        <article>
+        <article class="col-xs-4">
           <a href="#">
             <header>
               <h3>Type 2</h3>
@@ -352,7 +386,7 @@
           </a>
         </article>
 
-        <article>
+        <article class="col-xs-4">
           <a href="http://google.com">
             <header>
               <h3>Type 1</h3>
@@ -376,127 +410,129 @@
       </section>
 
     </section>
--->
 
   <!--  END Pricing  -->
+    
+    
+    
+    
+    
+    
+  <!--  Lovely Words -->
+      <div class="container-fluid full-width" id="lovely">
+        <section class="container sidebar-feature">
+          <h2 class="col-xs-12">Lovely words from users</h2>
+          <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesu.</p>
 
-  <!--  Team  -->
-<!--
-      <section id="team">
-        <header>
-          <h2>Meet our team players</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elita</p>
-        </header>
+          <article class="row">
 
-        <article class="team-slider">
-          <div class="nav-icon-position"><a class="nav-icon" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
-          <section class="section-1">
-            <div class="slider-image-container"><a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a></div>
-            <footer>
-              <h3><a href="#">Author Name 1</a></h3>
-              <h4>Designation 1</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <div>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <section  class="col-xs-8 col-xs-push-2 col-sm-6 col-sm-push-0 sidebar-details">
+              <div class="star">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
               </div>
-            </footer>
-          </section>
 
-          <section class="section-2">
-            <div class="slider-image-container"><a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a></div>
-            <footer>
-              <h3><a href="#">Author Name 2</a></h3>
-              <h4>Designation 2</h4>
-              <p>Q Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <div>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              </div>
-            </footer>
-          </section>
+              <h2>Amazing app! I love it</h2>
+              <p><q>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor odio, ornare id tempus nec, feugiat eget velit. Nunc rutrum mattis consectetur. Sed sagittis congue nisi ac elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean odio libero, sagittis in lectus in, pulvinar fermentum metus.</q></p>
+              <footer>
+                <p>- Anthony Hopkins</p>
+                <p>CEO, Hop Film Production</p>
+              </footer>
+            </section>
 
-          <section class="section-3">
-            <div  class="slider-image-container"><a href="#"><img src="http://via.placeholder.com/150x200" alt="#"></a></div>
-            <footer>
-              <h3><a href="#">Author Name 3</a></h3>
-              <h4>Designation 3</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <div>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              </div>
-            </footer>
-          </section>
-          <div class="nav-icon-position"><a class="nav-icon" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-        </article>
-      </section>
--->
-  <!--  END Team  -->
+            <section class="col-xs-10 col-xs-push-1 col-sm-5 side-feature">
+              <a href="#">
+                <p>Get the best</p> 
+                <div>
+                  <img src="images/testimonial-1.png" alt="">
+                </div>
+              </a>
 
+              <a href="#">
+                <p>Feature 2</p> 
+                <div>
+                  <img src="images/testimonial-2.png" alt="">        
+                </div>
+              </a>
+
+              <a href="#">
+                <p>Feature 3</p> 
+                <div>
+                  <img src="images/testimonial-3.png" alt="">      
+                </div>
+              </a>
+
+              <a href="#">
+                <p>Feature 4</p> 
+                <div>
+                  <img src="images/testimonial-4.png" alt="">        
+                </div>
+              </a>
+
+            </section>
+
+          </article>
+
+        </section>
+      </div>
+
+  <!-- END Lovely Words  -->
+
+  
+
+  
   <!--  Downloads  -->
-<!--
-      <article id="download">
-        <section>
-          <a href="#">
-            <i class="fa fa-google" aria-hidden="true"></i>
+      <article class="container" id="download">
+        <section class="row col-sm-3">
+          <a href="#" class="col-xs-4">
+            <img src="images/playstore.png" alt="">
             <p>Get it on<em>Google Play</em></p>
           </a>
 
-          <a href="#">
-            <i class="fa fa-apple" aria-hidden="true"></i>
+          <a href="#" class="col-xs-4">
+            <img src="images/20-apple-icon.png" alt="">
             <p>Download on the<em>App Store</em></p>
           </a>
 
-          <a href="#">
-            <i class="fa fa-windows" aria-hidden="true"></i>
+          <a href="#" class="col-xs-4">
+            <img src="images/21-windows-icon.png" alt="">
             <p>Download from<em>Windows Store</em></p>
           </a>
         </section>
 
-        <section>
-          <h2>Available to download!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+        <section class="row col-sm-5 col-sm-push-1">
+          <h2 class="col-xs-12 col-sm-">Available to download!</h2>
+          <p class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
         </section>
--->
-  <!--      <img src="http://via.placeholder.com/300x650">-->
-<!--
-        <div>
-
-        </div>
+        
+        <img class="col-xs-12 col-sm-4 img-responsive" src="images/download-iphone.png" alt="">
       </article>
--->
   <!--  END Downloads  -->
 
+    
+    
+    
   <!--  Forms  -->
-<!--
-      <section id="form">
-        <h2>How you can reach us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
+      <section id="form" class="container-fluid row full-width">
+        <h2 class="col-xs-12">How you can reach us</h2>
+        <p class="col-sm-8 col-sm-push-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et felis nibh. Curabitur a posuere est. Vivamus euismod aliquet turpis, non finibus leo facilisis a. Nullam et nisi id felis varius aliquam nec eget tortor.</p>
 
-        <div>
--->
+        <div class="container row">
 
   <!--   Small Form   -->
-<!--
-          <form action="#">
+          <form class="col-sm-6" action="#">
             <h2>Join the community!</h2>
             <div>
               <input type="email" placeholder="Your e-mail address *" required>
               <input class="button" type="submit" value="Subscribe">
             </div>
           </form>
--->
 
   <!--    Big Form    -->
-<!--
-          <form action="#">
+          <form class="row col-sm-6" action="#">
             <h2>Hit us with a mail!</h2>
             <div>
               <input type="text" placeholder="Your full name *" required>
@@ -513,14 +549,15 @@
 
         </div>
       </section>
--->
   <!--  END Forms  -->
 
+    
+    
+    
   <!--  Footer  -->
-<!--
-      <footer>
-        <div>
-          <section>
+      <footer class="container">
+        <div class="row">
+          <section class="col-xs-5 col-sm-6">
             <h3>We are here!</h3>
             <address>
               <p>House no. 67, Block J, park avenue</p>
@@ -529,7 +566,7 @@
             <p><strong>Office phone: </strong> <em>+016 855 955 24</em></p>
           </section>
 
-          <section>
+          <section class="col-xs-7 col-sm-6">
             <h3>Our social networks</h3>
             <div>
               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -540,16 +577,14 @@
           </section>
         </div>
 
-        <div>
-          <i class="fa fa-diamond" aria-hidden="true"></i>
-          <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Notilus. Designed by Varvtech</p>
+        <div class="row">
+          <img src="images/logo-icon.png" alt="Notilus footer logo">
+          <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Notilus. Designed by VarvTech</p>
         </div>
 
         <a href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
       </footer>
--->
   <!--  END Footer  -->
-<!--  </div>-->
   </body>
   
 </html>
